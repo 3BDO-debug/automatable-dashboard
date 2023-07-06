@@ -86,7 +86,7 @@ function ScheduledUpdatesPage() {
           </Grid>
         </Grid>
       </Container>
-      {/*  Schedule update pop up */}
+      {/*  Schedule update pop up ---------------- */}
       <ScheduleUpdatePopUp
         isTriggered={scheduleUpdate}
         closeHandler={() => triggerScheduleUpdate(false)}
